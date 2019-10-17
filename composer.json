@@ -28,13 +28,13 @@
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipServiceProvider"
-			],
-			"aliases": {
-				"OrangeSwissPaymentSlip": "Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipFacade"
-			}
-		}
-	},
+	"laravel": {
+	    "providers": [
+		"Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipServiceProvider"
+	    ],
+	    "aliases": {
+		"OrangeSwissPaymentSlip": "Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipFacade"
+	    }
+	}
+    },
 }

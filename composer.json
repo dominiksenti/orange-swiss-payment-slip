@@ -1,0 +1,14 @@
+{
+    "name": "dominiksenti/orange-swiss-payment-slip",
+    "description": "Laravel Package for Creating Orange Swiss Payment Slips in PDF format using FPDF",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Senti",
+            "email": "dominik@email.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

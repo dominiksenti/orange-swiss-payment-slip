@@ -10,5 +10,31 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "orchestra/testbench": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dominiksenti\\OrangeSwissPaymentSlip\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dominiksenti\\OrangeSwissPaymentSlip\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipServiceProvider"
+			],
+			"aliases": {
+				"OrangeSwissPaymentSlip": "Dominiksenti\\OrangeSwissPaymentSlip\\OrangeSwissPaymentSlipFacade"
+			}
+		}
+	},
 }
